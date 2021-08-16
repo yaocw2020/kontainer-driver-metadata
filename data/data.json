@@ -9478,6 +9478,7 @@
        "azure",
        "gcp",
        "vsphere",
+       "harvester",
        "external"
       ],
       "type": "enum"
@@ -9508,6 +9509,14 @@
      }
     },
     "charts": {
+     "rancher-harvester-cloud-provider": {
+      "repo": "rancher-charts",
+      "version": "0.1.1"
+     },
+     "rancher-harvester-csi": {
+      "repo": "rancher-charts",
+      "version": "0.1.0"
+     },
      "rancher-vsphere-cpi": {
       "repo": "rancher-charts",
       "version": "1.0.000"
