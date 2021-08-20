@@ -73,6 +73,7 @@ releases:
         - azure
         - gcp
         - rancher-vsphere
+        - harvester
         - external
         nullable: true
       selinux:
@@ -119,3 +120,9 @@ releases:
       rancher-vsphere-csi:
         repo: rancher-charts
         version: 2.1.000
+      harvester-cloud-provider:
+        repo: rancher-charts
+        version: 0.1.1
+      harvester-csi-driver:
+        repo: rancher-charts
+        version: 0.1.0
